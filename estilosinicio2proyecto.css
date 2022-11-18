@@ -6,7 +6,7 @@
 		font-family: 'Montserrat Alternates', sans-serif;
 	}
 	body{
-		background-image: url(https://img.freepik.com/fotos-premium/textura-tela-arrugada-blanca_44073-1019.jpg?w=2000);
+		background-color: whitesmoke(255, 255, 255);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
@@ -28,7 +28,7 @@
 		line-height:100px;
 	}
 	.container .btn-menu label{
-		color: #fff;
+		color: rgb(0, 0, 0);
 		font-size: 25px;
 		cursor: pointer;
 	}
