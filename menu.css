@@ -19,6 +19,16 @@ h3.pluja{
     padding-left: 10px;
     text-align: left;
 }
+h4{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: #3b1d56 solid;
+    border-radius: 15px;
+    background-color: #3b1d56;
+    width:250px ;
+    float: center;
+}
 .carousel{
     min-height: 200x;
     border: 5px,solid,white;
@@ -57,6 +67,7 @@ h3.pluja{
     position: relative;
     font-size: 65px;
   }
+
 .typed:before {
     content: '';
     background-color: rgb(177, 165, 165);
