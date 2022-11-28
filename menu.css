@@ -1,9 +1,10 @@
 h3 {
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 160%;
     font-family: sans-serif;
     border:rgb(3, 3, 8) solid;
-    border-radius: 15px;
+    border-width: 100%;
+    border-radius: 5%;
     background-color: #000000;
     padding-left:10px;
     text-align: left;
@@ -11,13 +12,24 @@ h3 {
 
 h3.pluja{
     color: #ffffff;
-    font-size: 25px;
+    font-size: 160%;
     font-family: sans-serif;
     border:#233642 solid;
-    border-radius: 15px;
+    border-width: 100%;
+    border-radius: 5%;
     background-color: #233642;
-    padding-left: 10px;
+    padding-left: 10%;
     text-align: left;
+}
+h4{
+    color: white;
+    font-size: 130%;
+    font-family: sans-serif;
+    border:#2F2235 solid;
+    border-radius: 15px;
+    background-color: #2F2235;
+    width: 15% ;
+    float: center;
 }
 .carousel{
     min-height: 200x;
@@ -57,6 +69,7 @@ h3.pluja{
     position: relative;
     font-size: 65px;
   }
+
 .typed:before {
     content: '';
     background-color: rgb(177, 165, 165);
@@ -128,12 +141,14 @@ div.titulo{
     content: "";
     width: 100%;
     height: 100%;
-    background: #c0c0c06e;
+    background:#2F2235;
     position: absolute;
     z-index: 1;
     top: -80px;
     left: 0;
     transition: .3s ease-in-out;
+    opacity: .6;
+    
 }
 .Boton:hover::after{
     top: 0;
@@ -142,12 +157,13 @@ div.titulo{
 }
 
 
-p{
+p {
     font-weight: lighter ;
     font-family:sans-serif;
     text-align: center;
     color: rgb(26, 22, 22);
-    font-size:160%;
+    font-size: 3vh;
+    
 }
 body {
     background-color:#ffffff;

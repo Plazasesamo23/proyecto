@@ -8,4 +8,15 @@ typed = new Typed('.typed',{
     backSpeed:100,
     loop:true 
 });
-
+document.addEventListener('DOMContentLoaded', () => {
+    const elementosCarousel = document.querySelectorAll('.carousel');
+    M.Carousel.init(elementosCarousel,{
+        duration: 150,
+        dist:2,
+        shift:10,
+        padding:5,
+        numVisible:3,
+        indicator:true,
+        noWrap:true
+        })
+});
